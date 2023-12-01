@@ -1,0 +1,13 @@
+.basket-item > .info {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.basket-item > .info > span:nth-child(2) {
+  flex: 1;
+}
+
+.basket-item > .actions {
+  display: flex;
+  justify-content: flex-end;
+}

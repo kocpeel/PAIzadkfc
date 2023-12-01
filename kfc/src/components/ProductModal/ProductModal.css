@@ -1,0 +1,232 @@
+div.ProductModal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  background: #ffff;
+  border-radius: 2rem;
+  width: 70%;
+  height: 90vh;
+  gap: 2rem;
+  overflow: auto;
+  padding-bottom: 7rem;
+  border: 1em solid #ffff;
+}
+
+div.ProductModal img {
+  max-width: 50%;
+}
+
+div.ProductModal > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3rem 5rem;
+}
+
+div.ProductModal > nav button {
+  background: transparent;
+  width: 2rem;
+  height: 2rem;
+}
+
+div.ProductModal > nav button * {
+  width: 100%;
+  height: 100%;
+}
+
+div.ProductModal > div#product {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+div.ProductModal > div#product div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+div.ProductModal > div#product div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+div.ProductModal div#addWhatYouLike {
+  width: 100%;
+  background-color: #f7f6f6;
+}
+
+div.ProductModal div#addWhatYouLike nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f6f6;
+  padding: 2rem 5rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+div.ProductModal div#addWhatYouLike nav div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+div.ProductModal div#addWhatYouLike nav div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 2px solid red;
+  padding: 0.2rem;
+  background-color: #ffff;
+}
+
+div.ProductModal div#addWhatYouLike nav div button * {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+div.ProductModal div#addWhatYouLike nav div button#back {
+  border-color: #dfdfdf;
+  transition: 0.3s;
+}
+
+div.ProductModal div#addWhatYouLike nav div button#back:hover {
+  background-color: #eeeeee;
+  border-color: #bebebe;
+}
+
+div.ProductModal div#addWhatYouLike nav div button#forward {
+  transition: 0.3s;
+}
+
+div.ProductModal div#addWhatYouLike nav div button#forward:hover {
+  background-color: #ffabab;
+}
+
+div.ProductModal div#addWhatYouLike nav div {
+  display: flex;
+  justify-content: center !important;
+}
+
+div.ProductModal footer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 50%;
+  height: 5rem;
+  position: fixed;
+  background-color: #ffff;
+  border-radius: 1.5rem;
+  bottom: 7vh;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.ProductModal footer div,
+div.ProductModal footer button {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+div.ProductModal footer div {
+  width: 5rem;
+}
+
+div.ProductModal footer button {
+  height: 0.5rem;
+  width: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+div.ProductModal footer button#add {
+  width: 50%;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  background-color: #9daf44;
+  color: #ffff;
+  transition: 0.3;
+}
+
+div.ProductModal footer button#add:hover {
+  background-color: #a0af57;
+  color: #ffff;
+}
+
+div.ProductModal footer button#less {
+  background-color: #ffff;
+  color: #9f9f9f;
+  transition: 0.3s;
+}
+
+div.ProductModal footer button#less:hover {
+  background-color: #9f9f9f;
+  color: #ffff;
+}
+
+div.ProductModal footer button#more {
+  background-color: #f4f6e7;
+  color: #99ae2e;
+  transition: 0.3s;
+}
+
+div.ProductModal footer button#more:hover {
+  background-color: #99ae2e;
+  color: #f4f6e7;
+}
+
+div.ProductModal footer h2 {
+  font-size: 2rem;
+}
+
+div.ProductModal::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+div.ProductModal::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+div.ProductModal::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 1rem;
+}
+
+div.ProductModal::-webkit-scrollbar-thumb:hover {
+  background-color: #fc5050;
+  border-radius: 1rem;
+}
+
+div.react-multi-carousel-list {
+  background-color: #f7f6f6;
+  padding: 3rem 10rem;
+}
+
+div.carouselProduct {
+  background-color: #ffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 20rem;
+  max-height: 25rem;
+}
+
+div.carouselProduct h2 {
+  font-size: 1.3rem;
+}
