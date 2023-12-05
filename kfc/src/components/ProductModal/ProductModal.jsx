@@ -8,11 +8,11 @@ const ProductModal = ({ product, onProductSelect, onProductDeselect }) => {
   const [amount, setAmount] = useState(0);
   const [favorites, setFavorites] = useState([]);
 
-  const handleAddClick = () => {
+  const handleMoreClick = () => {
     setAmount(amount + 1);
   };
 
-  const handleRemoveClick = () => {
+  const handleLessClick = () => {
     if (amount > 0) {
       setAmount(amount - 1);
     }
@@ -124,11 +124,11 @@ const ProductModal = ({ product, onProductSelect, onProductDeselect }) => {
       </div>
       <footer>
         <div>
-          <button onClick={handleRemoveClick} id="less">
+          <button onClick={handleLessClick} id="less">
             -
           </button>
           <h2 id="howMany">{amount}</h2>
-          <button onClick={handleAddClick} id="more">
+          <button onClick={handleMoreClick} id="more">
             +
           </button>
         </div>
